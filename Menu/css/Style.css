@@ -1,0 +1,22 @@
+.arriba {
+    display: flex;
+}
+.logotipo {
+    height: 200px;
+    width: 350px;
+}
+
+.perfil {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+
+.myList {
+    display: flex;
+    gap: 30px;
+}
+.head{
+    background-color: purple;
+    position: fixed
+}
