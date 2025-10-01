@@ -1,3 +1,7 @@
+main{
+    padding: 0;
+    margin: 0;
+}
 .arriba {
     display: flex;
 }
@@ -17,6 +21,14 @@
     gap: 30px;
 }
 .head{
+    width: 100%;
     background-color: purple;
     position: fixed
+}
+.contenedor {
+    width: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    display: flex;
 }
