@@ -1,0 +1,26 @@
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.box{
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    flex: 1;
+    padding: 10px;
+    align-content: center;
+}
+
+.imagen{
+    width: 400px;
+    height: 250px;
+}
