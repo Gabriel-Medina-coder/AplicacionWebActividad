@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Registro</title>
+</head>
+<body>
+    <header>
+        <center><h1>Registro</h1></center>
+    </header>
+    <main class="container">
+        <section>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" placeholder="Nombre" id="Nombre">
+            <label >Apellido paterno:</label>
+            <input type="text" placeholder="Apelido paterno" id="ApellidoP">
+            <label >Apellido materno:</label>
+            <input type="text" placeholder="Apellido materno" id="ApellidoM">
+        </section>
+
+        <section>
+            <label for="">Fecha de nacimiento:</label>
+            <input type="date" name="" id="Birthday">
+            <label for="">Genero:</label>
+            <input type="radio" name="genero" id="Masculino">Masculino
+            <input type="radio" name="genero" id="Femenino" >Femenino
+            <input type="radio" name="genero" id="Otro">Otro
+        </section>
+        <section>
+            <input type="checkbox" name="" id="terminos">
+            <label for="">Acepto los terminos y condiciones</label>
+        </section>
+        <section>
+            <button id="btnEnviar">Enviar</button>
+        </section>
+        <div id="mensaje">
+            
+            <!-- Aqui se mostrara el mensaje -->
+        </div>
+    </main>
+    <script src="js/registro.js"></script>
+</body>
+</html>

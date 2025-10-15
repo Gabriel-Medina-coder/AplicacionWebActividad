@@ -1,16 +1,29 @@
 body{
     margin: 0px;
     padding: 20px;
-    background-color: tomato;
+    background-color: #ebe2ca;
 }
 .container{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     gap: 20px;
 }
-
+.img{
+    width: 300px;
+    height: 500px;
+}
+p{
+    text-align: justify;
+}
+.rentar{
+    width: 200px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border-radius: 100px;
+}
 .caja {
-    background-color: greenyellow;
+    background-color: aliceblue;
     padding: 40px;
     border-radius: 10px;
 }
@@ -19,11 +32,21 @@ body{
     .container{
         grid-template-columns: repeat(2,1fr);
     } 
-}
-/*Celular*/
-@media(max-width: 600px){
-    .container{
-        grid-template-columns: 1fr;
+    .img{
+        width: 150px;
+        height: 250px;
     }
+    p{
+        font-family: 'Courier New', Courier, monospace;
+        text-align: justify;
+    }
+    .rentar{
+        width: 100px;
+        height: 20px;
+        background-color: green;
+        color: white;
+        border-radius: 100px;
+    }
+   
 }
 

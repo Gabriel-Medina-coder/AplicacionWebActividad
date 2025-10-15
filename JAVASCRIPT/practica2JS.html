@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 2</title>
+</head>
+<body>
+    <header>
+        <H1>Javascript JS DOM</H1>
+    </header>
+
+    <main id="principal">
+
+    </main>
+    <script>
+        let principal = document.getElementById("principal");
+        
+        let suma;
+        let resta;
+        let multiplicacion;
+        let division;
+
+        suma = 5 + 5;
+        resta = 10 - 5;
+        multiplicacion = 5 * 5;
+        division = 10 / 2;
+
+        principal.innerHTML+= "<p>La suma es: " + suma + "</p>";
+        principal.innerHTML+= "<p>La resta es: " + resta + "</p>";
+        principal.innerHTML+= "<p>La multiplicacion es: " + multiplicacion + "</p>";
+        principal.innerHTML+= "<p>La division es: " + division + "</p>";
+
+    </script>
+
+</body>
+</html>
